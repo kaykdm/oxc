@@ -303,6 +303,7 @@ mod nextjs {
     pub mod no_document_import_in_page;
     pub mod no_head_element;
     pub mod no_head_import_in_document;
+    pub mod no_html_link_for_pages;
     pub mod no_img_element;
     pub mod no_script_component_in_head;
     pub mod no_sync_scripts;
@@ -582,4 +583,5 @@ oxc_macros::declare_all_lint_rules! {
     nextjs::no_title_in_document_head,
     nextjs::no_typos,
     nextjs::no_document_import_in_page,
+    nextjs::no_html_link_for_pages,
 }
