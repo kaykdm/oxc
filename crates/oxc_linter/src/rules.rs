@@ -123,6 +123,7 @@ mod typescript {
     pub mod ban_types;
     pub mod consistent_indexed_object_style;
     pub mod consistent_type_definitions;
+    pub mod explicit_function_return_type;
     pub mod no_duplicate_enum_values;
     pub mod no_empty_interface;
     pub mod no_explicit_any;
@@ -511,6 +512,7 @@ oxc_macros::declare_all_lint_rules! {
     typescript::prefer_ts_expect_error,
     typescript::triple_slash_reference,
     typescript::prefer_literal_enum_member,
+    typescript::explicit_function_return_type,
     jest::expect_expect,
     jest::max_expects,
     jest::no_alias_methods,
